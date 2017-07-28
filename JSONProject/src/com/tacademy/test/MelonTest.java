@@ -34,7 +34,7 @@ public class MelonTest {
 			}
 			String jsonStr = builder.toString();
 			MelonParser paser = new MelonParser();
-//			System.out.println(jsonStr);
+			System.out.println(jsonStr);
 			
 			Melon melon = paser.doMelonParser(jsonStr);
 			System.out.println(melon);
